@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@2ce0601e-f3dd-4130-a9e6-e8568d8ef4c1" />
+        <remote-mappings server-id="python@sftp://weileyi@211.87.232.182:22/home/anaconda3/envs/general_lib/bin/python3.7">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/weileyi/hwj/Meta_Learning" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://weileyi@211.87.232.182:22/home/anaconda3/envs/general_lib/bin/python3">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/weileyi/hwj/Meta_Learning" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://weileyi@211.87.232.182:22/home/anaconda3/envs/general_lib/bin/python3.8">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/weileyi/hwj/Meta_Learning" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>

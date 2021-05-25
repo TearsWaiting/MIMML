@@ -1,0 +1,1 @@
+数据库地址：https://github.com/chaninn/pepbio/blob/master/predictive-model/fungus.fasta

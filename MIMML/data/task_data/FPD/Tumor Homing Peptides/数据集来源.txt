@@ -1,0 +1,3 @@
+GitHub：https://github.com/Shoombuatong/THPep
+论文：https://www.sciencedirect.com/science/article/pii/S1476927118309344
+《THPep: A machine learning-based approach for predicting tumor homing peptides》
