@@ -1,0 +1,46 @@
+index	name	num
+1	(Pos)ACE inhibitor (BIOPEP-UWM)	836
+2	(Pos)Anti-Gram positive (starPepDB)	4278
+3	(Pos)Anti-HIV (starPepDB)	959
+4	(Pos)antiamnestic (BIOPEP-UWM)	61
+5	(Pos)Antiangiogenic (starPepDB)	241
+6	(Pos)Antibacterial (merge)	8713
+7	(Pos)Antibiofilm (starPepDB)	126
+8	(Pos)Anticancer (merge)	1409
+9	(Pos)Antiflagellate (starPepDB)	84
+10	(Pos)Antifungal (merge)	3023
+11	(Pos)Antihypertensive (starPepDB)	1360
+12	(Pos)Antimalarial (starPepDB)	60
+13	(Pos)Antimicrobial (starPepDB)	16095
+14	(Pos)Antioxidant (merge)	764
+15	(Pos)Antiparasitic (starPepDB)	447
+16	(Pos)Antiplasmodial (starPepDB)	165
+17	(Pos)Antiprotozoal (starPepDB)	254
+18	(Pos)Antithrombin (merge)	60
+19	(Pos)Antitumor (starPepDB)	274
+20	(Pos)Antiviral (merge)	3888
+21	(Pos)Blood-Brain barrier (starPepDB)	224
+22	(Pos)CaMKII Inhibitor (BIOPEP-UWM)	50
+23	(Pos)celiac toxic (BIOPEP-UWM)	243
+24	(Pos)Cell penetrating (starPepDB)	1088
+25	(Pos)Cell-Cell communication (starPepDB)	737
+26	(Pos)Cytokine (Growth) factor (starPepDB)	62
+27	(Pos)Cytotoxic (starPepDB)	2266
+28	(Pos)Defensin (starPepDB)	343
+29	(Pos)dipeptidyl peptidase III inhibitor (BIOPEP-UWM)	56
+30	(Pos)dipeptidyl peptidase IV inhibi (BIOPEP-UWM)	328
+31	(Pos)Enzymatic inhibitor (starPepDB)	88
+32	(Pos)Hemolytic (starPepDB)	1120
+33	(Pos)Hormones (starPepDB)	152
+34	(Pos)immunomodulating (BIOPEP-UWM)	69
+35	(Pos)inhibitor (BIOPEP-UWM)	57
+36	(Pos)Insecticidal (starPepDB)	179
+37	(Pos)Neuropeptide (merge)	3248
+38	(Pos)opioid (BIOPEP-UWM)	131
+39	(Pos)Quorum sensing (starPepDB)	259
+40	(Pos)random_train	10843
+41	(Pos)stimulating (BIOPEP-UWM)	82
+42	(Pos)Toxic (merge)	4929
+43	(Pos)Toxic to mammals (starPepDB)	4922
+44	(Pos)Toxin (Venom) (starPepDB)	568
+45	(Pos)Tumor homing (starPepDB)	370

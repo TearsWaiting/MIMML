@@ -1,0 +1,4 @@
+BPD-ALL: 父子类别不去重，类间不去重
+BPD-ALL-RT: 父子类别不去重，类间不去重并且去除Finetune Dataset中所有Test Set中包含的序列
+BPD-DS: 父子类别去重，类间去重
+BPD-DS-RT: 父子类别去重，类间去重并且去除Finetune Dataset中所有Test Set中包含的序列

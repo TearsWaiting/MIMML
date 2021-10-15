@@ -1,0 +1,50 @@
+index	name	num
+1	ACE inhibitor (BIOPEP-UWM)	1042
+2	Anti-Gram positive (starPepDB)	9258
+3	Anti-HIV (starPepDB)	1042
+4	antiamnestic (BIOPEP-UWM)	63
+5	Antiangiogenic (starPepDB)	287
+6	Antibacterial (merge)	14587
+7	Antibiofilm (starPepDB)	221
+8	Anticancer (merge)	2596
+9	Antiflagellate (starPepDB)	151
+10	Antifungal (merge)	4660
+11	Antihypertensive (starPepDB)	1813
+12	Antimalarial (starPepDB)	78
+13	Antimicrobial (starPepDB)	22744
+14	Antioxidant (merge)	804
+15	Antiparasitic (starPepDB)	646
+16	Antiplasmodial (starPepDB)	207
+17	Antiprotozoal (starPepDB)	365
+18	Antithrombin (merge)	63
+19	Antitrypanosomic (starPepDB)	66
+20	Antitumor (starPepDB)	615
+21	Antiviral (merge)	4766
+22	Blood-Brain barrier (starPepDB)	292
+23	CaMKII Inhibitor (BIOPEP-UWM)	50
+24	celiac toxic (BIOPEP-UWM)	243
+25	Cell penetrating (starPepDB)	1235
+26	Cell-Cell communication (starPepDB)	810
+27	Chemotaxis (starPepDB)	73
+28	Cytokine (Growth) factor (starPepDB)	71
+29	Cytotoxic (starPepDB)	2464
+30	Defensin (starPepDB)	381
+31	dipeptidyl peptidase III inhibitor (BIOPEP-UWM)	66
+32	dipeptidyl peptidase IV inhibi (BIOPEP-UWM)	427
+33	Enzymatic inhibitor (starPepDB)	120
+34	haemolytic (BIOPEP-UWM)	61
+35	Hemolytic (starPepDB)	1976
+36	Hormones (starPepDB)	162
+37	immunomodulating (BIOPEP-UWM)	75
+38	inhibitor (BIOPEP-UWM)	59
+39	Insecticidal (starPepDB)	304
+40	Neuropeptide (merge)	3756
+41	opioid (BIOPEP-UWM)	135
+42	Protease inhibitor (starPepDB)	56
+43	Quorum sensing (starPepDB)	282
+44	random_test_train	16609
+45	stimulating (BIOPEP-UWM)	85
+46	Toxic (merge)	7955
+47	Toxic to mammals (starPepDB)	7948
+48	Toxin (Venom) (starPepDB)	588
+49	Tumor homing (starPepDB)	659

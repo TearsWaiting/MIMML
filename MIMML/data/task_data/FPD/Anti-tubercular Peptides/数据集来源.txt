@@ -1,3 +1,0 @@
-下载地址：http://thegleelab.org/AtbPpred/AtbPData.html
-论文：https://www.sciencedirect.com/science/article/pii/S2001037019300546
-《AtbPpred: A Robust Sequence-Based Prediction of Anti-Tubercular Peptides Using Extremely Randomized Trees》
