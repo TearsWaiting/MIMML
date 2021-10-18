@@ -1,0 +1,39 @@
+task_type_run: meta-finetune
+learn_name: default_meta_finetune
+save_best: True
+cuda: True
+device: 0
+seed: 50
+path_token2index: ../data/meta_data/residue2idx.pkl
+path_train_data: ../data/task_data/Finetune Dataset/Anti-angiogenic Peptide/train/benchmarkdataset-pospos-train.tsv
+path_test_data: ../data/task_data/Finetune Dataset/Anti-angiogenic Peptide/test/benchmarkdataset-pospos-test.tsv
+path_dataset: ../data/task_data/Meta Dataset/BPD-ALL-RT
+path_params: ../result/pretrain_meta_train_BPD_ALL_RT_MIMML/model/MIMML, Epoch[250.000].pt
+path_save: ../result/
+model_save_name: CNN
+save_figure_type: png
+num_class: 2
+max_len: 207
+dataset: None
+mode: train-test
+interval_log: 20
+interval_valid: 1
+interval_test: 1
+metric: MCC
+threshold: 0.48
+model: TextCNN
+optimizer: AdamW
+loss_func: FL
+lr: 0.0005
+reg: 0.0025
+epoch: 100
+batch_size: 32
+gamma: 2
+alpha: 0.01
+dim_embedding: 128
+dropout: 0.5
+static: False
+num_filter: 128
+filter_sizes: 1,2,4,8,16,24,32,64
+dim_cnn_out: 128
+output_extend: finetune

@@ -565,7 +565,7 @@ class ModelManager():
         best_meta_test_performance = None
         best_acc = 0
 
-        pbar = tqdm([i for i in range(self.config.max_epoch)])
+        pbar = tqdm([i for i in range(self.config.epoch)])
         for epoch in pbar:
             self.model.train()
             if self.config.save_best and (epoch % 10 == 0):

@@ -463,8 +463,10 @@ class DataManager():
             test_labels.extend(class_i_test_labels)
 
         print('#' * 200)
-        print('total number of data used for pretrain [{}]: {} + {}'.format(len(train_seqs) + len(test_seqs),
-                                                                            len(train_labels), len(test_labels)))
+        print(
+            'total number of data used for pretrain [{}]: Train[{}] + Test[{}]'.format(len(train_seqs) + len(test_seqs),
+                                                                                       len(train_labels),
+                                                                                       len(test_labels)))
         print('#' * 200)
 
         dataset_train = self.__construct_dataset(train_seqs, train_labels, self.config.cuda)

@@ -1,0 +1,21 @@
+2021-10-18_09:01:02 INFO: Set IO Over.
+2021-10-18_09:01:02 INFO: Set Visualization Over.
+2021-10-18_09:02:15 INFO: Load Data Over.
+2021-10-18_09:02:15 INFO: Init Model Over.
+2021-10-18_09:02:15 INFO: Load Parameters Over.
+2021-10-18_09:02:15 INFO: Adjust Model Over.
+2021-10-18_09:02:15 INFO: Init Optimizer Over.
+2021-10-18_09:02:15 INFO: Define Loss Function Over.
+2021-10-18_09:02:15 INFO: Train Model Start.
+2021-10-18_09:02:15 INFO: Learn Name: default_meta_train_with_pretrain
+2021-10-18_09:02:15 INFO: Config: Namespace(adapt_iteration=10, adapt_lr=0.0005, alpha=0.1, backbone='TextCNN', cuda=True, dataset='Peptide Sequence', device=0, dim_cnn_out=128, dim_embedding=128, dropout=0.5, epoch=251, filter_sizes='1,2,4,8,16,24,32,64', if_MIM=True, if_transductive=True, lamb=0.1, learn_name='default_meta_train_with_pretrain', loss_func='FL', lr=0.0002, max_len=207, meta_batch_size=10, metric='ACC', mode='meta learning', model='ProtoNet', model_save_name='MIMML', num_filter=128, num_meta_test=10, num_meta_train=24, num_meta_valid=10, num_workers=4, optimizer='Adam', path_meta_dataset='../data/task_data/Meta Dataset/BPD-ALL-RT', path_params='../result/default_pretrain/model/CNN, Epoch[20.000].pt', path_save='../result/', path_token2index='../data/meta_data/residue2idx.pkl', process_name='train (0)', reg=0.0, save_best=True, save_figure_type='png', seed=50, static=False, task_type_run='meta-train-with-pretrain', temp=20, test_iteration=100, test_query=15, test_shot=5, test_way=5, threshold=0.6, train_iteration=1, train_query=15, train_shot=5, train_way=5, valid_draw=10, valid_interval=5, valid_iteration=5, valid_query=15, valid_shot=5, valid_start_epoch=300, valid_way=5, vocab_size=28)
+2021-10-18_09:18:41 INFO: Best Meta-Test Performance: None
+2021-10-18_09:18:41 INFO: Meta-Test Performance: []
+2021-10-18_09:18:45 INFO: Train Model Over.
+2021-10-18_09:18:45 INFO: Test Model Start.
+2021-10-18_09:18:45 INFO: Config: Namespace(adapt_iteration=10, adapt_lr=0.0005, alpha=0.1, backbone='TextCNN', cuda=True, dataset='Peptide Sequence', device=0, dim_cnn_out=128, dim_embedding=128, dropout=0.5, epoch=251, filter_sizes='1,2,4,8,16,24,32,64', if_MIM=True, if_transductive=True, lamb=0.1, learn_name='default_meta_train_with_pretrain', loss_func='FL', lr=0.0002, max_len=207, meta_batch_size=10, metric='ACC', mode='meta learning', model='ProtoNet', model_save_name='MIMML', num_filter=128, num_meta_test=10, num_meta_train=24, num_meta_valid=10, num_workers=4, optimizer='Adam', path_meta_dataset='../data/task_data/Meta Dataset/BPD-ALL-RT', path_params='../result/default_pretrain/model/CNN, Epoch[20.000].pt', path_save='../result/', path_token2index='../data/meta_data/residue2idx.pkl', process_name='train (0)', reg=0.0, save_best=True, save_figure_type='png', seed=50, static=False, task_type_run='meta-train-with-pretrain', temp=20, test_iteration=100, test_query=15, test_shot=5, test_way=5, threshold=0.6, title='MIMML Epoch[250]', train_iteration=1, train_query=15, train_shot=5, train_way=5, valid_draw=10, valid_interval=5, valid_iteration=5, valid_query=15, valid_shot=5, valid_start_epoch=300, valid_way=5, vocab_size=28)
+2021-10-18_09:23:55 INFO: 
+================================================== Final Meta-Test Performance ==================================================
+avg_loss_sum=-4.628 | avg_loss_query_CE=2.016 | query_acc=67.11% | test_mi=2.205 | support_acc=99.84% | support_mi=2.311
+========================================================================================================================
+2021-10-18_09:23:55 INFO: Test Model Over.

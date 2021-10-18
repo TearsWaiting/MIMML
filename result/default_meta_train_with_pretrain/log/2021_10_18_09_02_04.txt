@@ -1,0 +1,15 @@
+2021-10-18_09:02:04 INFO: Set IO Over.
+2021-10-18_09:02:04 INFO: Set Visualization Over.
+2021-10-18_09:07:52 INFO: Load Data Over.
+2021-10-18_09:07:52 INFO: Init Model Over.
+2021-10-18_09:07:52 INFO: Load Parameters Over.
+2021-10-18_09:07:52 INFO: Adjust Model Over.
+2021-10-18_09:07:52 INFO: Init Optimizer Over.
+2021-10-18_09:07:52 INFO: Define Loss Function Over.
+2021-10-18_09:07:52 INFO: Test Model Start.
+2021-10-18_09:07:52 INFO: Config: Namespace(adapt_iteration=10, adapt_lr=0.0005, alpha=0.1, backbone='TextCNN', cuda=True, dataset='Peptide Sequence', device=0, dim_cnn_out=128, dim_embedding=128, dropout=0.5, epoch=251, filter_sizes='1,2,4,8,16,24,32,64', if_MIM=True, if_transductive=True, lamb=0.1, learn_name='default_meta_train_with_pretrain', loss_func='FL', lr=0.0002, max_len=207, meta_batch_size=10, metric='ACC', mode='meta learning', model='ProtoNet', model_save_name='MIMML', num_filter=128, num_meta_test=10, num_meta_train=24, num_meta_valid=10, num_workers=4, optimizer='Adam', path_meta_dataset='../data/task_data/Meta Dataset/BPD-ALL-RT', path_params='../result/pretrain_meta_train_BPD_ALL_RT_MIMML/model/MIMML, Epoch[250.000].pt', path_save='../result/', path_token2index='../data/meta_data/residue2idx.pkl', process_name='train (0)', reg=0.0, save_best=True, save_figure_type='png', seed=50, static=False, task_type_run='meta-test', temp=20, test_iteration=100, test_query=15, test_shot=5, test_way=5, threshold=0.6, train_iteration=1, train_query=15, train_shot=5, train_way=5, valid_draw=10, valid_interval=5, valid_iteration=5, valid_query=15, valid_shot=5, valid_start_epoch=300, valid_way=5, vocab_size=28)
+2021-10-18_09:15:57 INFO: 
+================================================== Final Meta-Test Performance ==================================================
+avg_loss_sum=-4.640 | avg_loss_query_CE=1.846 | query_acc=80.72% | test_mi=2.301 | support_acc=100.00% | support_mi=2.321
+========================================================================================================================
+2021-10-18_09:15:57 INFO: Test Model Over.

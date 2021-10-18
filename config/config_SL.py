@@ -3,9 +3,10 @@ import argparse
 
 def get_config():
     parse = argparse.ArgumentParser(description='common supervised learning config')
+    parse.add_argument('-task-type-run', type=str, default='test', help='本次训练需要运行的脚本类型')
 
     # 项目配置参数
-    # parse.add_argument('-learn-name', type=str, default='SL_train_00', help='本次训练的名称')
+    parse.add_argument('-learn-name', type=str, default=None, help='本次训练的名称')
     parse.add_argument('-save-best', type=bool, default=True, help='当得到更好的准确度是否要保存')
     parse.add_argument('-cuda', type=bool, default=True)
     parse.add_argument('-device', type=int, default=0)
@@ -15,17 +16,16 @@ def get_config():
     parse.add_argument('-path-token2index', type=str, default='../data/meta_data/residue2idx.pkl', help='保存字典的位置')
     parse.add_argument('-path-train-data', type=str, default='../data/task_data/IL-6/Train.tsv', help='训练数据的位置')
     parse.add_argument('-path-test-data', type=str, default='../data/task_data/IL-6/Validate.tsv', help='测试数据的位置')
-    # parse.add_argument('-path-dataset', type=str, default='../data/task_data/BPD-36', help='多分类训练数据的位置')
-    parse.add_argument('-path-dataset', type=str, default=None, help='多分类训练数据的位置')
+    parse.add_argument('-path-dataset', type=str, default='../data/task_data/Meta Dataset/BPD-ALL-RT',
+                       help='多分类训练数据的位置')
     parse.add_argument('-path-params', type=str, default=None, help='模型参数路径')
     parse.add_argument('-path-save', type=str, default='../result/', help='保存字典的位置')
-    # parse.add_argument('-model-save-name', type=str, default='TE', help='保存模型的命名')
     parse.add_argument('-model-save-name', type=str, default='CNN', help='保存模型的命名')
     parse.add_argument('-save-figure-type', type=str, default='png', help='保存图片的文件类型')
 
     # 数据参数
     parse.add_argument('-num-class', type=int, default=2, help='类别数量')
-    # parse.add_argument('-num-class', type=int, default=28, help='类别数量')
+    # parse.add_argument('-num-class', type=int, default=24, help='类别数量')
     parse.add_argument('-max-len', type=int, default=207, help='max length of input sequences')
     parse.add_argument('-dataset', type=str, default='None', help='数据集名称')
 
@@ -37,13 +37,12 @@ def get_config():
     parse.add_argument('-interval-valid', type=int, default=1, help='经过多少epoch对交叉验证集进行测试')
     parse.add_argument('-interval-test', type=int, default=1, help='经过多少epoch对测试集进行测试')
     # parse.add_argument('-metric', type=str, default='MCC', help='评估指标名称')
-    parse.add_argument('-metric', type=str, default='ACC', help='评估指标名称')
+    parse.add_argument('-metric', type=str, default='MCC', help='评估指标名称')
     # parse.add_argument('-threshold', type=float, default=0.45, help='指标率阈值')
     parse.add_argument('-threshold', type=float, default=0.40, help='指标率阈值')
 
     # 训练参数
     parse.add_argument('-model', type=str, default='TextCNN', help='模型名称')
-    # parse.add_argument('-model', type=str, default='TextCNN_finetune', help='模型名称')
     # parse.add_argument('-model', type=str, default='Transformer Encoder', help='模型名称')
     parse.add_argument('-optimizer', type=str, default='AdamW', help='优化器名称')
     parse.add_argument('-loss-func', type=str, default='FL', help='损失函数名称, CE/FL')
@@ -79,7 +78,7 @@ def get_config():
     parse.add_argument('-filter-sizes', type=str, default='1,2,4,8,16,24,32,64', help='卷积核的尺寸')
     parse.add_argument('-dim-cnn-out', type=int, default=128, help='CNN模型的输出维度')
     # parse.add_argument('-output-extend', type=str, default='pretrain', help='CNN后是否再接一层')
-    parse.add_argument('-output-extend', type=str, default='finetune', help='CNN后是否再接一层')
+    # parse.add_argument('-output-extend', type=str, default='finetune', help='CNN后是否再接一层')
 
     config = parse.parse_args()
     return config

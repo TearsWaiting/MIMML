@@ -1,0 +1,11 @@
+pandas==1.2.3
+torch==1.7.1
+tqdm==4.59.0
+seaborn==0.11.1
+numpy==1.19.5
+learn2learn==0.1.5
+torchmeta==1.6.1
+pynvml==8.0.4
+matplotlib==3.3.4
+configuration==0.4.2
+scikit_learn==1.0

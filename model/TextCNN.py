@@ -27,9 +27,11 @@ class TextCNN(nn.Module):
         if self.config.mode == 'train-test' or self.config.mode == 'cross validation':
             label_num = config.num_class
             if self.config.output_extend == 'pretrain':
-                self.classifier_pretrain = nn.Linear(dim_cnn_out, label_num)  # label_num: 25
+                self.classifier_pretrain = nn.Linear(dim_cnn_out,
+                                                     label_num)  # label_num: 24 + 1 (number of meta-train classes + 1 random sequence class)
             elif self.config.output_extend == 'finetune':
-                self.classifier_finetune = nn.Linear(dim_cnn_out, label_num)  # label_num: 2
+                self.classifier_finetune = nn.Linear(dim_cnn_out,
+                                                     label_num)  # label_num: 2 for binary peptide classification
             else:
                 print('Error, No Such Output Extend')
 

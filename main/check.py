@@ -43,7 +43,7 @@ def check_meta_train():
     config = config_meta.get_config()
     config.learn_name = 'check_meta_train'
     config.mode = 'meta learning'
-    config.max_epoch = 2
+    config.epoch = 2
     config.test_iteration = 2
 
     learner = Learner.Learner(config)
@@ -104,7 +104,7 @@ def check_meta_train_with_pretrained():
     config.path_params = '../result/chcek_SL_pretrain/model/CNN, epoch[1], ACC[0.493].pt'
     # pretrain_config = pickle.load(open('../result/chcek_SL_pretrain/config.pkl', 'rb'))
     config.mode = 'meta learning'
-    config.max_epoch = 2
+    config.epoch = 2
     config.test_iteration = 20
 
     learner = Learner.Learner(config)

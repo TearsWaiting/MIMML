@@ -1,4 +1,4 @@
-from config import config_SL, config_meta, config_meta_miniImageNet
+from config import config_SL, config_meta
 from Framework import Learner
 
 

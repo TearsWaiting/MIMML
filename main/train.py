@@ -37,20 +37,6 @@ def SL_fintune():
     learner.test_model()
 
 
-def train_ProtoNet_miniImageNet():
-    config = config_meta_miniImageNet.get_config()
-    learner = Learner.Learner(config)
-    learner.setIO()
-    learner.setVisualization()
-    learner.load_data()
-    learner.init_model()
-    learner.load_params()
-    learner.init_optimizer()
-    learner.def_loss_func()
-    learner.train_model()
-    learner.test_model()
-
-
 def meta_train():
     config = config_meta.get_config()
     config.learn_name = 'visual_meta_train 0'
